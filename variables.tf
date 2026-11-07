@@ -10,3 +10,10 @@ variable "instance_type" {
   type        = string
   default     = "t3.micro"
 }
+
+
+variable "host_os" {
+  description = "host os"
+  type        = string
+  default     = "linux"
+}
